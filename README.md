@@ -19,3 +19,11 @@ Start by going into the node-server directory and run the following command
 ```
 npm install
 ```
+
+Once this is done you can start the server with the following command
+
+```
+node app.js
+```
+
+This will start the server at [localhost:8000]:http://localhost:8000
