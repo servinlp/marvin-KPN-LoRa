@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Marvin + KPN LoRa</title>
+	</head>
+	<body>
+
+		<% if ( messages.length > 0 ) { %>
+			<ul>
+				<% for(var i = 0; i < messages.length; i++) {%>
+					<li><%= messages[i] %></li>
+				<% } %>
+			</ul>
+		<% } else { %>
+			<h1>No messages</h1>
+		<% } %>
+
+	</body>
+</html>
