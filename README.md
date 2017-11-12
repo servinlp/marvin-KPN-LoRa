@@ -40,4 +40,4 @@ This will start the server at [localhost:8000]
 [Arduino IDE]: https://www.arduino.cc/en/main/software
 [Marvin repo]: https://github.com/iotacademy/marvin/tree/master/Software
 
-[Setting the board to Leonardo]: images/uploading.jpg "Setting the board to Leonardo"
+[Setting the board to Leonardo]: https://raw.github.com/servinlp/marvin-KPN-LoRa/images/uploading.jpg "Setting the board to Leonardo"
