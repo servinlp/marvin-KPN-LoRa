@@ -15,7 +15,7 @@ If you have both of these you're good to go.
 
 To upload to the Marvin board you will need to set the board option in the [Arduino IDE] to `Arduino Leonardo` like so.
 
-[Setting the board to Leonardo]
+![alt text][Setting the board to Leonardo]
 Image from the [Marvin repo]
 
 ### KPN LoRa
