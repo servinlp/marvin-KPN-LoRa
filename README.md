@@ -78,8 +78,8 @@ This will start the server at [localhost:8000]
 [Setting the board to Leonardo]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/uploading.jpg "Setting the board to Leonardo"
 [Upload a sketch]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/uploading.jpg "Upload a sketch"
 
-[Add device]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/add-device.png "Add device"
-[Device prompt]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/add-device-prompt.png "Device prompt"
-[Device overview]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/device-overview.png "Device overview"
-[Device values]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/device-values.png "Device values"
-[Debugger]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/debugger.png "Debugger"
+[Add device]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/add-device.PNG "Add device"
+[Device prompt]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/add-device-prompt.PNG "Device prompt"
+[Device overview]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/device-overview.PNG "Device overview"
+[Device values]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/device-values.PNG "Device values"
+[Debugger]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/debugger.PNG "Debugger"
