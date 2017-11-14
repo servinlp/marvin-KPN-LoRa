@@ -39,7 +39,8 @@ Once logged in you van add a Device with the Add Device button.
 
 ![alt text][Add device]
 
-This will show a prompt for you to fill in. NOTE: You can always change the options at a later point.
+This will show a prompt for you to fill in. 
+**NOTE**: You can always change the options at a later point.
 
 ![alt text][Device prompt]
 
