@@ -100,4 +100,4 @@ So in the KPN LoRa developer portal you can set the `Destination URL` to your si
 [Device values]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/device-values.PNG "Device values"
 [Debugger]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/debugger.PNG "Debugger"
 
-[Mavin + button]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/marvin-plus-board.jpg "Mavin + button"
+[Marvin + button]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/marvin-plus-board.jpg "Mavin + button"
