@@ -2,12 +2,15 @@
 Using the marvin board to send data through the kpn lora network to a node.js server.
 
 ## prerequirements
-For you to send data from the KPN developer portal to your node.js server you will need the 2 following things.
+For you to send data from the KPN developer portal to your `node.js` server you will need the 2 following things.
 
 1. The ability to run node online
 2. HTTPS
+3. Have a Marvin board (duh)
 
 If you have both of these you're good to go.
+
+If you don't have a live `node.js` server you can still do all the steps untill the part for `node.js`. Alternatively you can use [Hookbin] to see te receiving data. (Past the Hookbin link as your destination.)
 
 ### Your Marvin board
 
@@ -30,7 +33,7 @@ In the example the button is connected to the D4 pin. In your code this will be 
 
 ### KPN LoRa
 
-If you don't have one already, make an account on the [KPN LoRa developer portal]
+If you don't have one already, make an account on the [KPN LoRa developer portal]. This will give you free access for 10 weeks to use 10 different devices.
 
 Once logged in you van add a Device with the Add Device button.
 
@@ -66,6 +69,8 @@ Once this is uploaded you can press the button on the Marvin to send your first 
 
 The data you will see here is going to be something different then what you would have send but don't panic this is normal. The `int` `1000` we send has been converted to hexadecimal for the transfer. We will reverse this on the server side.
 
+**NOTE**: you can only send data to your server (uplink) 6 times per hour and 2 messages from your server to the Marvin board (downlink) per hour.
+
 ### Node.js
 
 Start by going into the node-server directory and run the following command
@@ -90,9 +95,10 @@ So in the KPN LoRa developer portal you can set the `Destination URL` to your si
 [Arduino IDE]: https://www.arduino.cc/en/main/software
 [Marvin repo]: https://github.com/iotacademy/marvin/tree/master/Software
 [KPN LoRa developer portal]: https://loradeveloper.mendixcloud.com/index.html
+[Hookbin]: https://hookbin.com/
 
 [Setting the board to Leonardo]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/uploading.jpg "Setting the board to Leonardo"
-[Upload a sketch]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/uploading.jpg "Upload a sketch"
+[Upload a sketch]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/upload.jpg "Upload a sketch"
 
 [Add device]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/add-device.PNG "Add device"
 [Device prompt]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/add-device-prompt.PNG "Device prompt"
