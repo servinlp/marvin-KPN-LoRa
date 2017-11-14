@@ -1,7 +1,7 @@
 # Marvin + KPN LoRa
 Using the marvin board to send data through the kpn lora network to a node.js server.
 
-## Note
+## prerequirements
 For you to send data from the KPN developer portal to your node.js server you will need the 2 following things.
 
 1. The ability to run node online
@@ -23,20 +23,29 @@ And then you can click the Upload button.
 ![alt text][Upload a sketch]
 Image from the [Marvin repo]
 
+#### The button
+In the example the button is connected to the D4 pin. In your code this will be shown as de 4 pin. Make sure the button is wired up like the image.
+
+![alt text][Marvin + button]
+
 ### KPN LoRa
 
 If you don't have one already, make an account on the [KPN LoRa developer portal]
 
 Once logged in you van add a Device with the Add Device button.
+
 ![alt text][Add device]
 
 This will show a prompt for you to fill in. NOTE: You can always change the options at a later point.
+
 ![alt text][Device prompt]
 
 Once added it will look something like this.
+
 ![alt text][Device overview]
 
 Here you can click on the edit button. This will bring up a prompt which will show you the keys you need to put into your arduino code.
+
 ![alt text][Device values]
 
 #### Your own keys
@@ -52,7 +61,10 @@ String set_appskey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"; // AppsKey
 ```
 
 Once this is uploaded you can press the button on the Marvin to send your first message. You can find your message under the Debugger tab. Be sure to set the device to your current board.
+
 ![alt text][Debugger]
+
+The data you will see here is going to be something different then what you would have send but don't panic this is normal. The `Hello World` we send has been converted to hexadecimal for the transfer. We will reverse this on the server side.
 
 ### Node.js
 
@@ -70,6 +82,10 @@ node app.js
 
 This will start the server at [localhost:8000]
 
+Have the node.js application run live on your server to send and receive data. The application has two paths. The first is the `/` where an array will be filled with the messages you send to it. The second one is `/entries`. This will be where you will send the data to.
+
+So in the KPN LoRa developer portal you can set the `Destination URL` to your site.
+
 [localhost:8000]: http://localhost:8000
 [Arduino IDE]: https://www.arduino.cc/en/main/software
 [Marvin repo]: https://github.com/iotacademy/marvin/tree/master/Software
@@ -83,3 +99,5 @@ This will start the server at [localhost:8000]
 [Device overview]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/device-overview.PNG "Device overview"
 [Device values]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/device-values.PNG "Device values"
 [Debugger]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/debugger.PNG "Debugger"
+
+[Mavin + button]: https://github.com/servinlp/marvin-KPN-LoRa/raw/master/images/marvin-plus-board.jpg "Mavin + button"

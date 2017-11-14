@@ -1,4 +1,3 @@
-
 int	set_port = 1;
 
 // Some standard ports that depend on the layout of the Marvin
@@ -18,7 +17,7 @@ int buttonState = 0;
 int wasPressed = 0;
 
 // What you want tot send
-String message = "Hello World"
+int message = 1;
 
 void setup() {
 
