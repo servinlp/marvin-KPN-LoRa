@@ -64,7 +64,7 @@ Once this is uploaded you can press the button on the Marvin to send your first 
 
 ![alt text][Debugger]
 
-The data you will see here is going to be something different then what you would have send but don't panic this is normal. The `Hello World` we send has been converted to hexadecimal for the transfer. We will reverse this on the server side.
+The data you will see here is going to be something different then what you would have send but don't panic this is normal. The `int` `1000` we send has been converted to hexadecimal for the transfer. We will reverse this on the server side.
 
 ### Node.js
 

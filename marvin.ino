@@ -17,7 +17,7 @@ int buttonState = 0;
 int wasPressed = 0;
 
 // What you want tot send
-int message = 1;
+int message = 1000;
 
 void setup() {
 
